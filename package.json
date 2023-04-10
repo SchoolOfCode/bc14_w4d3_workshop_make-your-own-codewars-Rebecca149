@@ -1,11 +1,16 @@
 {
   "name": "workshop_make-your-own-codewars",
   "version": "1.0.0",
-  "description": "",
+  "description": "You've spent the past few weeks solving katas on CodeWars, and you might think that they're written by an elite cabal of software geniuses (or not if you've run across a few less-than-stellar katas!). Not so - they're written by ordinary programmers, and you're now officially School of Code-qualified to join in and give writing your own a try.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "School of Code",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.5.0"
+  },
+  "type": "module",
+  "keywords": []
 }
