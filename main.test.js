@@ -10,8 +10,6 @@
 
 */
 
-
-
 /* SKELETON TEST:
 
 test('', function () {
@@ -21,8 +19,6 @@ test('', function () {
 });
 
 */
-
-// import {test, expect} from "@jest/globals";
 
 const { daysBetween } = require("./main.js");
 
