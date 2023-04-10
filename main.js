@@ -5,6 +5,7 @@ NOTES:
 - If the inputted date is not valid, the function should return 'please input a date in the form yyyy-mm-dd'
 - If a date is entered in a valid form (yyyy-mm-dd), the number of days and the month will be valid (e.g. the 31st of Feburary would not be inputted)
 - The new Date() function is specific to the millisecond so a conversion must be done to get the answer in days
+- The end date should not be included (e.g. there is 1 day between the 1st and the 3nd of January)
 */
 
 //👉 Write the function your CodeWarriors will start with below here:
@@ -22,6 +23,8 @@ if (dateRegex.test(dateStr1) && dateRegex.test(dateStr2)) {
   return `The number of days between the two dates is ${diffDays}`;
 }
 else {
-    return `The inputted dates should be in the form 'yyyy-mm-dd`
+    return `The inputted dates should be in the form 'yyyy-mm-dd`;
 }
 }
+
+module.exports = {daysBetween}
